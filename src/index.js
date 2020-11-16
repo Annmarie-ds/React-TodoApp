@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const DATA = [
+  { id: "todo-0", name: "Check mail", completed: false },
+  { id: "todo-0", name: "Run through lecture notes", completed: false }
+];
+
+ReactDOM.render(<App tasks={DATA} />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
