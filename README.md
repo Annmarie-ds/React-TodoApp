@@ -1,4 +1,4 @@
-# Step by step Todo App guide in React with Developer Mozilla
+# Developer Mozilla's step by step guide
   As a user, I can
 
   - read a list of tasks.
